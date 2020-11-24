@@ -26,7 +26,7 @@ author: Zheyuan Zhou
 # This URL is the main address for absolute links. Don't include a slash at the end.
 #
 url: 'https://Fudan-CV-Lab.github.io'
-baseurl: ''
+baseurl: '/'
 
 # This URL points directly to the images directory making
 # things easier to link to images in posts and templates. It needs a slash at the end.
@@ -66,12 +66,8 @@ excerpt_separator: "<!--more-->"
 include: ['.htaccess']
 # Exclude these files from your production _site
 exclude:
-    - .sass-cache
-    - Gemfile
-    - Gemfile.lock
     - LICENSE
     - README.md
-    - INSTALL.md
 
 
 # The language setting is used in /includes/header.html for html-settings
@@ -107,7 +103,7 @@ defaults:
       show_meta: false 	# Hide metadata for all pages
       # sidebar:    		# Possible values › left, right › by default there will be no sidebar
       comments: false
-      author: Shuyang Sun     # Default author for pages
+      author: Zheyuan Zhou     # Default author for pages
   -
     scope:
       path: ''
@@ -116,7 +112,7 @@ defaults:
       show_meta: true   # Show metadata for all posts
       # sidebar:        # Possible values › left, right › by default there will be no sidebar
       comments: false
-      author: Shuyang Sun     # Default author for posts
+      author: Zheyuan Zhou     # Default author for posts
 
 
 
