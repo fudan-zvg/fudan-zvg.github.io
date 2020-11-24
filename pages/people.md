@@ -15,11 +15,8 @@ permalink: "/people/"
 
 <h3 class="section-title">Group Leader</h3>
 <br/>
+
 {% include member.html name="Philip H.S. Torr" title="Professor" photo="/images/people/Phil.jpg" website="http://www.robots.ox.ac.uk/~phst/" email="mailto:philip.torr@eng.ox.ac.uk"%}
-
-{% include member.html name="Joanna Zapisek" photo="/images/people/JoannaZapisek.jpg" title="Project Manager" %}
-
-{% include member.html name="Cassandra Warren" title="Group Administrator" %}
 
 <hr/>
 

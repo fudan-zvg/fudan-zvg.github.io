@@ -3,7 +3,7 @@
 layout: frontpage
 header:
   image_fullwidth:
-title: "Torr Vision Group - University of Oxford"
+title: "Zhang Vision Group - Fudan University"
 
 sidebar: right
 
@@ -27,7 +27,7 @@ homepage: true
 
 <div class="pc dark-section" style="">
   <br>
-  <h3 class="section-title"> About TVG </h3> 
+  <h3 class="section-title"> About Us </h3> 
 
 The aim of the group is to engage in state of the art research into the mathematical theory of computer vision and artificial intelligence, but to keep the mathematical research relevant to the needs of society. A particular emphasis of the group has been on real time understanding and reconstruction of the world around using mobile cameras, such as those on drones, intelligent glasses or other robots. Examples of which can be seen here <a href="http://www.robots.ox.ac.uk/~szheng/crfasrnndemo"> CRF-RNN </a> and here <a href="https://www.youtube.com/watch?v=z_TcWC7yjj0"> Semantic Paint </a>.
 
