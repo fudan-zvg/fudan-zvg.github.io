@@ -17,15 +17,15 @@ slogan: '@ Fudan University'
 description: 'Welcome to the homepage of the Zhang Vision Group at Fudan Univeristy'
 
 # The credits show up in the includes/_footer.html – It would be nice of you to leave a link to Phlow or Feeling Responsive as a thank you :)
-credits: '<p>Powered by <a href="https://kevin-ssy.github.io/">Shuyang Sun</a> with <a href="http://jekyllrb.com/" target="_blank">Jekyll</a> </p>'
+credits: '<p>Created by <a href="https://SirJamie.github.io/">Zheyuan Zhou</a>, Powered by <a href="https://kevin-ssy.github.io/">Shuyang Sun</a> with <a href="http://jekyllrb.com/" target="_blank">Jekyll</a> </p>'
 
 # Main author of the website
 # See > authors.yml
-author: Shuyang Sun
+author: Zheyuan Zhou
 
 # This URL is the main address for absolute links. Don't include a slash at the end.
 #
-url: 'https://torrvision.github.io/'
+url: 'https://Fudan-CV-Lab.github.io/'
 baseurl: ''
 
 # This URL points directly to the images directory making
@@ -34,7 +34,7 @@ baseurl: ''
 # Example: <img src="{{ site.urlimg }}{{ post.image.title }}" />
 # Markdown-Example for posts ![Image Text]({{ site.urlimg }}image.jpg)
 #
-urlimg: 'https://torrvision.github.io/images/'
+urlimg: 'https://Fudan-CV-Lab.github.io/images/'
 
 
 # Logo size is 600x80 pixels
@@ -301,6 +301,6 @@ collections:
   news:
     output: true
 
-collections_dir: tvg_db
+collections_dir: zvg_db
 
 theme: 

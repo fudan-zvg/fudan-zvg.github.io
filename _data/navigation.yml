@@ -7,12 +7,12 @@
 - title: "Publication"
   url: "/publication/"
   side: left
-- title: "Research"
-  url: "/research/"
-  side: left
-- title: "Prizes"
-  url: "/prizes/"
-  side: left
+# - title: "Research"
+#   url: "/research/"
+#   side: left
+# - title: "Prizes"
+#   url: "/prizes/"
+#   side: left
   #dropdown:
   #- title: "Publication by date"
   #  url: "/publication/"
@@ -64,9 +64,9 @@
   url: "/recruitment/"
   side: left
 
-- title: Resources
-  url: "/resources/"
-  side: left
+# - title: Resources
+#   url: "/resources/"
+#   side: left
   # dropdown:
   # - title: "Blog Archive"
   #   url: "/blog/archive/"
