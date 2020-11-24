@@ -1,0 +1,157 @@
+---
+layout: default
+format: frontpage
+---
+<div class="main-container">
+    <div id="header-home">
+        <!-- <div class="row"> -->
+          {% include _index_banner.html %}
+            <div class="">
+
+             <div class="" style="/* margin-top: 15px */">
+                <div class="dark-section" style="">
+                   <div class="head">
+                    <div class="col-sm-12 col-md-6 pl-6 head-text"> <h1 style="color: #2C2C2C; font-weight: bold;" id="main-title"> TORR VISION GROUP </h1>
+                        <h5 class="" style="color: #6C6C6C;" id="sub-title"> Torr Vision Group (formerly known as Brookes Vision Group, Oxford Brookes University) in the Department of Engineering Science at University of Oxford, was formed in 2005 and later moved to University of Oxford in 2013, is led by Professor Philip Torr. The aim of the group is to engage in state of the art research into the mathematical theory of computer vision and artificial intelligence, but to keep the mathematical research relevant to the needs of society. </h5>
+                    </div>
+
+                    <div class="col-sm-12 col-md-6 carousel-head-inner" >
+
+                        <div id="group_photo_carousel" class="carousel slide" data-ride="carousel" style="">
+                            <!-- Indicators -->
+                            <ol class="carousel-indicators">
+                              <li data-target="#group_photo_carousel" data-slide-to="0" class="active"></li>
+                              <li data-target="#group_photo_carousel" data-slide-to="1"></li>
+                              <li data-target="#group_photo_carousel" data-slide-to="2"></li>
+                            </ol>
+
+                          <!-- Wrapper for slides -->
+                          <div class="carousel-inner">
+
+                              {% include carousel_item.html  active="true" 
+                                  url="#" 
+                                  image="/images/group_photos/oct_2018.jpg" %}
+                              
+                              {% include carousel_item.html 
+                                  url="#" 
+                                  image="/images/group_photos/june_2016.jpg" %}
+
+                              {% include carousel_item.html
+                                  url="#" 
+                                  image="/images/group_photos/2012.jpg" %}
+
+                          </div>
+
+                                 <!-- Left and right controls -->
+                                 <a class="left carousel-control" href="#group_photo_carousel" data-slide="prev">
+                                  <span class="glyphicon glyphicon-chevron-left"></span>
+                                  <span class="sr-only">Previous</span>
+                              </a>
+                              <a class="right carousel-control" href="#group_photo_carousel" data-slide="next">
+                                  <span class="glyphicon glyphicon-chevron-right"></span>
+                                  <span class="sr-only">Next</span>
+                              </a>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div><!-- /.medium-4.columns -->
+      <!-- </div>/.row -->
+  </div><!-- /#header-home -->
+
+
+  <div class="">
+    {{ content }}
+</div>
+
+
+
+
+{% comment %}
+*
+* First check, if widget is empty or not by checking if there is a title
+*
+{% endcomment %}
+
+
+
+{% comment %}
+*
+* First check, if there is a call for action-button
+*
+{% endcomment %}
+{% if page.callforaction.url contains 'http' %}
+{% assign url = '' %}
+{% else %}
+{% capture url %}{{ site.url }}{{ site.baseurl }}{% endcapture %}
+{% endif %}
+{% if page.callforaction %}
+<div class="row t60 b60">
+    <div class="small-12 text-center columns">
+        <a class="button large radius {{ page.callforaction.style }}" href="{{ url }}{{ page.callforaction.url }}"{% if page.callforaction.url contains 'http' %} target="_blank" {% endif %}>{{ page.callforaction.text }}</a>
+    </div><!-- /.small-12.columns -->
+</div><!-- /.row -->
+{% endif %}
+
+
+
+{% comment %}
+*
+* First check, if there are any posts at all
+*
+{% endcomment %}
+
+{% unless site.posts == empty %}
+<div class="row t30 b20 homepage">
+    <div class="small-12 columns">
+        {% for post in site.posts limit:1 %}
+        {% if post.image.homepage %}
+        <p>
+            <a href="{{ site.url }}{{ site.baseurl }}{{ post.url }}" title="{{ post.title | escape_once }}"><img width="970" src="{{ site.urlimg }}{{ post.image.homepage }}" alt="{{ page.title | escape_once }}"></a>
+        </p>
+
+        {% if post.image.caption_url and post.image.caption %}
+        <p class="text-right caption">
+            <a href="{{ post.image.caption_url }}">{{ post.image.caption }}</a>
+        </p>
+        {% endif %}
+        {% else post.image.homepage == NULL %}
+        <h2>{{ site.data.language.new_blog_entries }}</h2>
+        {% endif %}
+        {% endfor %}
+    </div><!-- /.small-12.columns -->
+</div><!-- /.row -->
+
+
+<div class="row">
+    <div class="medium-6 columns">
+        {% for post in site.posts limit:1 %}
+        {% if post.subheadline %}<p class="subheadline">{{ post.subheadline }}</p>{% endif %}
+        <h2><a href="{{ site.url }}{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h2>
+
+        <p>
+            {% if post.meta_description %}{{ post.meta_description | strip_html | escape }}{% else post.teaser %}{{ post.teaser | strip_html | escape }}{% endif %}
+            <a href="{{ site.url }}{{ site.baseurl }}{{ post.url }}" title="Read {{ post.title | escape_once }}"><strong>{{ site.data.language.read_more }}</strong></a>
+        </p>
+        {% endfor %}
+    </div><!-- /.medium-5.columns -->
+
+
+    <div class="medium-6 columns">
+        <p><strong>{{ site.data.language.more_articles }}</strong></p>
+        {% include list-posts entries='3' offset='1' %}
+    </div><!-- /.medium-7.columns -->
+</div><!-- /.row -->
+{% endunless %}
+
+
+{% comment %}
+*
+* Finally, if there is content, spit it out.
+*
+{% endcomment %}
+
+
+
+</div>

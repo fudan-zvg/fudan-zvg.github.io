@@ -1,0 +1,20 @@
+<div class="row">
+		<div class="col-md-12">
+		{% if include.website %}
+  			<a href="{{ include.website }}" style="color: #2F72A8;">{{ include.title }} {{ include.name }}</a>
+		{% else %}
+			{{ include.title }} {{ include.name }}
+		{% endif %}
+
+		{% if include.email %}
+			[<a href="{{ include.email }}" style="color: #2F72A8;">email</a>]
+		{% endif %}
+
+		{% if include.affil %}
+			({{ include.affil }})
+		{% endif %}
+		{% if include.note %}
+			({{ include.note }})
+		{% endif %}
+	</div>
+</div>

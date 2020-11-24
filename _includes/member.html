@@ -1,0 +1,30 @@
+<div class="col-xs-6 col-md-3 mh-100 member">
+{% if include.name %}
+		  	<div class="">
+		  		{% if include.photo %}
+				  	<img src="{{ include.photo }}" width="180" height="180">
+		  			
+		  		{% else %}
+		  			<img src="/images/nobody.png" width="180" height="180">
+		  		{% endif %}
+		  	</div>
+		  	<div  {% if include.person_style %} style="{{ include.person_style }}" {% endif %} >
+				  	<div class="">
+						{% if include.website %}
+				  			<a href="{{ include.website }}" style="color: #2F72A8;">{{ include.name }}</a>
+						{% else %}
+							{{ include.name }}
+						{% endif %}
+				  	</div>
+				  	{% if include.title %}
+				  		{{ include.title }}
+				  		<br>
+				  	{% endif %}
+
+				  	{% if include.email %}
+				  		
+				  		<a href="{{ include.email }}" style="font-size: 16px; color: #2F72A8">[email]</a>
+					{% endif %}
+			</div>
+{% endif %}
+</div>

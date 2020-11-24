@@ -1,0 +1,42 @@
+<div class="row">
+	<div class="small-4 column">
+		{% if include.img_path %}
+			<a href="{{ include.pdf_url }}">
+				<img src="../images/images_for_pub/{{ include.img_path }}" style="width: 100%">
+			</a>
+		{% else %}
+			<a href="{{ include.pdf_url }}">
+				<img src="../images/images_for_pub/default.jpg" style="width: 100%">
+			</a>
+		{% endif %}
+	</div>
+	<div class="small-8 column">
+		<p>
+			<b>{{ include.title }}</b>
+			<br>
+			{{ include.author_list }}
+			<br> 
+			{{ include.pub_in }}
+			<br>
+			<a href="{{ include.pdf_url }}"> [PDF]</a>
+			{% if include.website %}
+			<a href="{{ include.website }}"> [Website]</a>
+			{% endif %}
+			{% if include.bib %}
+			<a href="{{ include.bib }}"> [Bibtex]</a>
+			{% endif %}
+			{% if include.code_url %}
+			<a href="{{ include.code_url }}"> [Code]</a>
+			{% endif %}
+			{% if include.blog_post %}
+			<a href="{{ include.blog_post }}"> [Blog Post]</a>
+			{% endif %}
+			{% if include.grant == 'MURI' %}
+			| {{ include.grant }}
+			{% endif %}
+		</p>
+	</div>
+		
+</div>
+
+<br>

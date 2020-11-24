@@ -1,0 +1,23 @@
+I"<p>It’s so easy to do. Just define in front matter your image.
+<!--more--></p>
+
+<h2 id="front-matter-code">Front Matter Code</h2>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>header:
+    image_fullwidth: "unsplash_brooklyn-bridge_header.jpg"
+    caption: This is a caption for the header image with link
+    caption_url: https://unsplash.com/
+</code></pre></div></div>
+
+<h3 class="t60" id="all-header-styles">All Header-Styles</h3>
+
+<ul class="side-nav">
+
+  
+
+    
+
+  
+</ul>
+
+:ET
