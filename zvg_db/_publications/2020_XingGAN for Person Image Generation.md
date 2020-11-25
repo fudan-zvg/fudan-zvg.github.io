@@ -7,4 +7,5 @@ author_list: "Hao Tang, Song Bai, Li Zhang, Philip H.S. Torr, Nicu Sebe"
 grant: ""
 pub_in: "European Conference on Computer Vision 2020"
 img_path: "3dgnn.png"
+code_url: "fudan-cv-lab.github.com"
 ---
