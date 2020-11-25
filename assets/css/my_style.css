@@ -36,7 +36,7 @@
 
 .section-title {
     padding-bottom: 20px;
-    color: #003399;
+    color: #0F409C;
 }
 
 .carousel {
@@ -103,7 +103,7 @@
     }
 
     .head-text{
-	   color: #003399;  /* Fudan blue!*/
+	   color: #0F409C;  /* Fudan blue!*/
        flex: 50%;
     }
     .head-subtitle{
@@ -214,11 +214,11 @@ ul.timeline > li {
 ul.timeline > li:before {
     content: ' ';
     /*animation: blinker 1s linear infinite;*/
-    background: #003399;
+    background: #0F409C;
     display: inline-block;
     position: absolute;
     border-radius: 50%;
-    border: 3px solid #003399;
+    border: 3px solid #0F409C;
     left: 8.5px;
     margin-top: 5px;
     /* bottom: 2.5px; */
@@ -235,7 +235,7 @@ ul.timeline > li:before {
 
 
 .news-title{
-    color: #003399;
+    color: #0F409C;
     /*float: left;*/
     font-weight: bold;
     font-size: 20px;
@@ -246,7 +246,7 @@ ul.timeline > li:before {
 }
 
 .new-day-month {
-    color: #003399;
+    color: #0F409C;
     background: #f4f4f4;
     padding: 6px;
     font-weight: bold;
@@ -256,7 +256,7 @@ ul.timeline > li:before {
 
 .new-year {
     color: #f4f4f4;
-    background: #003399;
+    background: #0F409C;
     padding: 6px;
     margin-right: 10px;
     font-weight: bold;
@@ -300,7 +300,7 @@ ul.timeline > li:before {
 }
 
 a.member {
-    color: #003399;
+    color: #0F409C;
 }
 
 
@@ -308,7 +308,7 @@ a.member {
 
 
 .banner {
-        background-color: #003399;
+        background-color: #0F409C;
         color: #e2d1df;
         padding: 8em 0;
         position: relative;
