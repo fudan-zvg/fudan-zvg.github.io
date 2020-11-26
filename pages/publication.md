@@ -33,6 +33,8 @@ permalink: "/publication/"
             pub_in=pub.pub_in
             bib=pub.bib
             grant=pub.grant
+            img_path=pub.img_path
+            code_url=pub.code_url
         %}    
 
 
