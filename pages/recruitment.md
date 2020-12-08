@@ -9,4 +9,4 @@ header:
 permalink: "/recruitment/"
 ---
 
-We are currently looking to hire both talented post docs and doctoral students, please contact Professor Torr <a href="mailto:philip.torr@eng.ox.ac.uk">philip.torr@eng.ox.ac.uk </a>.
+We are currently looking to hire both talented post docs and doctoral students, please contact Professor Zhang <a href="mailto:lizhangfd@fudan.edu.cn">lizhangfd@fudan.edu.cn </a>.
