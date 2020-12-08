@@ -675,48 +675,48 @@ a.member {
         @media screen and (max-width: 980px) {
             
                 #banner_image_1 {
-                    background-image: url('/images/banners/banner1_small.jpg') !important;
+                    background-image: url('/images/banners/banner1.png') !important;
                 }
 
-                #banner_image_2 {
+                /* #banner_image_2 {
                     background-image: url('/images/banners/banner2_small.jpg') !important;
                 }
 
                 #banner_image_3 {
                     background-image: url('/images/banners/banner3_small.jpg') !important;
-                }
+                } */
             
         }
         /* Desktop screens */
         @media screen and (min-width: 980px) and (max-width: 1920px) {
             
                 #banner_image_1 {
-                    background-image: url('/images/banners/banner1_medium.jpg') !important;
+                    background-image: url('/images/banners/banner1.png') !important;
                 }
 
-                #banner_image_2 {
+                /* #banner_image_2 {
                     background-image: url('/images/banners/banner2_medium.jpg') !important;
                 }
 
                 #banner_image_3 {
                     background-image: url('/images/banners/banner3_medium.jpg') !important;
-                }
+                } */
             
         }
         /* Huge screens */
         @media screen and (min-width: 1920px) {
             
                 #banner_image_1 {
-                    background-image: url('/images/banners/banner1_huge.jpg') !important;
+                    background-image: url('/images/banners/banner1.png') !important;
                 }
 
-                #banner_image_2 {
+                /* #banner_image_2 {
                     background-image: url('/images/banners/banner2_huge.jpg') !important;
                 }
 
                 #banner_image_3 {
                     background-image: url('/images/banners/banner3_huge.jpg') !important;
-                }
+                } */
             
         }
         /* Mobile screens */
