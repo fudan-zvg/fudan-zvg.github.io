@@ -18,7 +18,6 @@ permalink: "/people/"
 {% include member.html 
 
 name="Dr Li Zhang" 
-title="" 
 photo="/images/people/LiZhang.jpg" 
 website="http://www.robots.ox.ac.uk/~lz/" 
 email="lizhangfd@fudan.edu.cn"
