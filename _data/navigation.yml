@@ -2,7 +2,9 @@
   url: "/"
   side: left
 
-
+- title: "People"
+  url: "/people/"
+  side: left
 
 - title: "Publication"
   url: "/publication/"
@@ -40,9 +42,6 @@
   # - title: "Portfolio"
   #   url: "/design/portfolio/"
 
-- title: "People"
-  url: "/people/"
-  side: left
   # dropdown:
   # - title: "Header with Full-Width-Image"
   #   url: "/design/header-full-width-image/"

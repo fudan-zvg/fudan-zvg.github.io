@@ -283,6 +283,10 @@ collections:
     output: true
     sort_by: "name"
 
+  visit:
+    output: true
+    sort_by: "name"
+
   news:
     output: true
 
