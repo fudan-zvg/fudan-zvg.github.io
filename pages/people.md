@@ -13,47 +13,48 @@ permalink: "/people/"
 
 <div class="row">
 
-<h3 class="section-title">Group Leader</h3>
-{% include member.html 
+<h3 class="section-title">Principal Investigator</h3>
+
 name="Dr Li Zhang" 
 title="" 
 photo="/images/people/LiZhang.jpg" 
 website="http://www.robots.ox.ac.uk/~lz/" 
 email="lizhangfd@fudan.edu.cn"
+
 %}
-<br/>
+<br>
+<br>
+<br>
+
 <hr/>
 
-<br/>
-<br/>
 
 
 <h3 class="medium-12 section-title">PhD Students</h3>
-<br/>
+
 {% for a in site.alumni %}
 	{% include collaborator.html name=a.name title=a.title email=a.email website=a.website note=a.note %}
 {% endfor %}
-<br/>
+
 <hr/>
 
 <h3 class="medium-12 section-title">Master Students</h3>
-<br/>
+
 {% for a in site.alumni %}
 	{% include collaborator.html name=a.name title=a.title email=a.email website=a.website note=a.note %}
 {% endfor %}
-<br/>
+
 <hr/>
 
 <h3 class="medium-12 section-title">Undergraduate Students</h3>
-<br/>
+
 {% for a in site.alumni %}
 	{% include collaborator.html name=a.name title=a.title email=a.email website=a.website note=a.note %}
 {% endfor %}
-<br/>
+
 <hr/>
 
 
-<hr/>
 </div>
 
 
