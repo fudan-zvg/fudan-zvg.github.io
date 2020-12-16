@@ -15,6 +15,8 @@ permalink: "/people/"
 
 <h3 class="section-title">Principal Investigator</h3>
 
+{% include member.html 
+
 name="Dr Li Zhang" 
 title="" 
 photo="/images/people/LiZhang.jpg" 
