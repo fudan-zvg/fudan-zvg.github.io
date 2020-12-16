@@ -16,7 +16,8 @@ permalink: "/people/"
 <h3 class="section-title">Group Leader</h3>
 <br/>
 
-{% include member.html name="Philip H.S. Torr" title="Professor" photo="/images/people/Phil.jpg" website="http://www.robots.ox.ac.uk/~phst/" email="mailto:philip.torr@eng.ox.ac.uk"%}
+{% include member.html name="Dr Li Zhang" title="" photo="/images/people/lz.jpg" website="http://www.robots.ox.ac.uk/~lz/" email="lizhangfd@fudan.edu.cn" 
+google scholar="https://scholar.google.com/citations?user=-wOTCE8AAAAJ&hl=en"%}
 
 <hr/>
 
