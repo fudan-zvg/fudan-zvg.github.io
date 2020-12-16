@@ -18,6 +18,8 @@ permalink: "/publication/"
 
 ---
 
+[[2020][1]]
+
 <div class="">
 
     {% assign publications = site.publications | sort: "year" | reverse %}
@@ -42,3 +44,6 @@ permalink: "/publication/"
 
 
 </div>
+
+
+[1]:	/publication/#2020
