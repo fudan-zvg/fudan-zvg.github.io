@@ -81,8 +81,9 @@ permalink: "/people/"
 	{% endfor %}
 
 	<hr/>
+
 </div>
 
 
-
+We are part of the Fudan-VI Lab
 
