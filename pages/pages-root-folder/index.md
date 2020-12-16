@@ -18,11 +18,11 @@ homepage: true
       <ul class="timeline col-md-6 off-md-6">
         {% for n in site.news %}
           {% include news_item.html 
-          news_date=n.news_date 
-          title=n.title 
-          year=n.year 
-          news_content=n.news_content 
-          link=n.link
+              news_date=n.news_date 
+              title=n.title 
+              year=n.year 
+              news_content=n.news_content 
+              link=n.link 
           %}
         {% endfor %}
       </ul>
