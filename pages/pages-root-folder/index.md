@@ -29,6 +29,6 @@ homepage: true
 
   We are currently looking to hire talented students. 
   <br>
-  If you are highly creative, have top grades/coding skill and interested in joining our group please do not hesitate to send your CV and transcripts of grades to <a href="mailto:lizhangfd@fudan.edu.cn">lizhangfd@fudan.edu.cn </a>.
+  If you are highly creative, have top grades/coding skill and interested in joining our group please do not hesitate to send your CV and transcripts of grades to <a href="mailto:lizhangfd@fudan.edu.cn">lizhangfd@fudan.edu.cn </a>
 
 </div>

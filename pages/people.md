@@ -22,10 +22,10 @@ website="http://www.robots.ox.ac.uk/~lz/"
 email="lizhangfd@fudan.edu.cn"
 %}
 <br/>
-<br/>
-<br/>
 <hr/>
 
+<br/>
+<br/>
 
 
 <h3 class="medium-12 section-title">PhD Students</h3>

@@ -2,7 +2,7 @@
 title: "Long-Term Cloth-Changing Person Re-identification"
 year: 2020
 author_list: "Xuelin Qian, Wenxuan Wang, Li Zhang, Fangrui Zhu, Yanwei Fu, Tao Xiang, Yu-Gang Jiang, Xiangyang Xue"
-pub_in: "ACCV 2020(Oral)"
+pub_in: "ACCV 2020 (Oral)"
 pdf_url: "https://arxiv.org/abs/2005.12633"
 website: "https://naiq.github.io/LTCC_Perosn_ReID.html"
 ---
