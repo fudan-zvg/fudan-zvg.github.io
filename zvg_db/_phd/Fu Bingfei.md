@@ -1,6 +1,6 @@
 ---
 name: Bingfei Fu
-title: Mr.
+title: Mr
 email: 
 website: 
 note: 

@@ -1,9 +1,0 @@
----
-name: 
-title: 
-email: 
-website: 
-note: 
-category: 
-photo: 
----
