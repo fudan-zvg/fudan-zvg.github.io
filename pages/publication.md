@@ -18,7 +18,7 @@ permalink: "/publication/"
 
 ---
 
-[[2020][1]]
+[[2020][1]] [[2019][2]] [[2018][3]] [[2017][4]] [[2016][5]
 
 <div class="">
 
@@ -47,3 +47,7 @@ permalink: "/publication/"
 
 
 [1]:	/publication/#2020
+[2]:	/publication/#2019
+[3]:    /publication/#2018
+[4]:    /publication/#2017
+[5]:    /publication/#2016
