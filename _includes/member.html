@@ -16,7 +16,7 @@
 				  <div  {% if include.person_style %} style="{{ include.person_style }}" {% endif %} >
 						  <div class="">
 							{% if include.website %}
-								  Dr <a href="{{ include.website }}" style="color: #2F72A8;">{{ include.name }}</a>
+								  <a href="{{ include.website }}" style="color: #2F72A8;">{{ include.name }}</a>
 							{% else %}
 								{{ include.name }}
 							{% endif %}
