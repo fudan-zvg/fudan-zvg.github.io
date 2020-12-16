@@ -28,8 +28,6 @@ permalink: "/people/"
 	
 	<hr/>
 
-
-
 	<h3 class="medium-12 section-title">PhD Students</h3>
 
 	{% for a in site.phd %}
