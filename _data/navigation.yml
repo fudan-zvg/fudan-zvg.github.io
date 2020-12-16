@@ -60,9 +60,9 @@
   #   url: "/design/no-header-but-image/"
 
 
-- title: Recruitment
-  url: "/recruitment/"
-  side: left
+# - title: Recruitment
+#   url: "/recruitment/"
+#   side: left
 
 # - title: Resources
 #   url: "/resources/"
