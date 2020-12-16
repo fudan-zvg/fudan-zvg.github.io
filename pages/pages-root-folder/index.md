@@ -17,7 +17,13 @@ homepage: true
       <h3 class="section-title">Breaking News</h3>
       <ul class="timeline col-md-6 off-md-6">
         {% for n in site.news %}
-          {% include news_item.html news_date=n.news_date title=n.title year=n.year news_content=n.news_content %}
+          {% include news_item.html 
+          news_date=n.news_date 
+          title=n.title 
+          year=n.year 
+          news_content=n.news_content 
+          link=n.link
+          %}
         {% endfor %}
       </ul>
   </div>
