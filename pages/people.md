@@ -27,8 +27,6 @@ permalink: "/people/"
 		email="lizhangfd@fudan.edu.cn"
 
 	%}
-
-	<p>We are part of the Fudan-VI Lab</p>
 	
 	<hr/>
 
