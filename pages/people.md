@@ -17,7 +17,7 @@ permalink: "/people/"
 
 	<h3 class="section-title">Principal Investigator</h3>
 
-    {% for a in site.member %}
+    {% for a in site.researcher %}
 	    {% include member.html 
             name=a.name 
             title=a.title 
@@ -27,6 +27,7 @@ permalink: "/people/"
             email=a.email
 	    %}
 	{% endfor %}
+	
 	<hr/>
 
 	<h3 class="medium-12 section-title">PhD Students</h3>

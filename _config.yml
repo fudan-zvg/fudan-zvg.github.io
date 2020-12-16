@@ -271,7 +271,7 @@ collections:
     output: true
     sort_by: "year"
 
-  member:
+  researcher:
     output: ture
     sort_by: "name"
 
