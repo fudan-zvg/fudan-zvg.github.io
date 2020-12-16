@@ -11,7 +11,7 @@ permalink: "/people/"
 
 ---
 
-<div class="row">
+<div class="row"> 
 
 <h3 class="section-title">Principal Investigator</h3>
 
@@ -23,8 +23,8 @@ website="http://www.robots.ox.ac.uk/~lz/"
 email="lizhangfd@fudan.edu.cn"
 
 %}
-<p>
-<p>
+<p> </p>
+<p> </p>
 <hr/>
 
 
@@ -68,7 +68,8 @@ email="lizhangfd@fudan.edu.cn"
 
 <hr/>
 
-
 </div>
+
+
 
 
