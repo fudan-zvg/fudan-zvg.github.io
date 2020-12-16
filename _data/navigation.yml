@@ -9,6 +9,10 @@
 - title: "Publication"
   url: "/publication/"
   side: left
+
+- title: "Address"
+  url: "/address/"
+  side: left
 # - title: "Research"
 #   url: "/research/"
 #   side: left
