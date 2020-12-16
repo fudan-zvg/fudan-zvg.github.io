@@ -25,7 +25,7 @@ homepage: true
 
 <div class="pc light-section" style="">
   <br>
-  <h3 class="section-title"> Join the Lab </h3> 
+  <h3 class="section-title"> Join the Group </h3> 
 
   We are currently looking to hire talented students. 
   <br>
