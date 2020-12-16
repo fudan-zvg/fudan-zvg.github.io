@@ -271,26 +271,15 @@ collections:
     output: true
     sort_by: "year"
 
-  senior_researchers:
-    output: true
-
-  postdocs:
+  phd:
     output: true
     sort_by: "name"
 
-  dphils:
-    output: true
-    sort_by: "year"
-
-  alumni:
+  master:
     output: true
     sort_by: "name"
 
-  close_members:
-    output: true
-    sort_by: "name"
-
-  former_members:
+  undergraduate:
     output: true
     sort_by: "name"
 

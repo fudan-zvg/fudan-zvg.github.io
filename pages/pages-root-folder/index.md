@@ -23,7 +23,7 @@ homepage: true
   </div>
 </div>
 
-<div class="pc light-section" style="">
+<div class="pc dark-section" style="">
   <br>
   <h3 class="section-title"> Join the Group </h3> 
 
