@@ -271,6 +271,10 @@ collections:
     output: true
     sort_by: "year"
 
+  member:
+    output: ture
+    sort_by: "name"
+
   phd:
     output: true
     sort_by: "name"
