@@ -9,4 +9,9 @@ header:
 permalink: "/address/"
 ---
 
+
+<div class="">
+
 {% include map.html %}
+
+</div>
