@@ -1,4 +1,4 @@
-<!-- <!DOCTYPE html> -->
+<!DOCTYPE html>
 <html lang="zh-CN">
 <head>
     <meta charset="utf-8">
@@ -35,7 +35,7 @@
 </head>
 <body>
     <div class = "info">按住鼠标右键控制地图旋转、修改倾斜角度。</div>
-    <div id="container"></div>
+    <div id="container">
     <script>
     var map = new BMapGL.Map('container'); // 创建Map实例
     var new_point = new BMapGL.Point(121.518122,31.303999);
@@ -45,5 +45,6 @@
     map.addOverlay(marker);              // 将标注添加到地图中
     map.panTo(new_point);
     </script>
+    </div>
 </body>
 </html>

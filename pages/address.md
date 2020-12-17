@@ -12,6 +12,4 @@ permalink: "/address/"
 
 Xinjinbo, 539 Handan Road, Yangpu, Shanghai
 
-<div class="">
 {% include map.html %}
-</div>
