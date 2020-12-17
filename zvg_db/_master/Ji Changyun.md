@@ -1,5 +1,5 @@
 ---
-name: Cangyun Ji
+name: Changyun Ji
 title: Mr
 email: 
 website: 
