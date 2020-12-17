@@ -1,10 +1,11 @@
-<div id="container">
-    <script>
-        var map = new BMapGL.Map('container'); 
-        var new_point = new BMapGL.Point(121.518122,31.303999);
-        map.centerAndZoom(new_point, 16); 
-        map.enableScrollWheelZoom(true); 
-        var marker = new BMapGL.Marker(new_point);  
-        map.addOverlay(marker);
-    </script>
+<div class="col-xs-12">
+    <div id="container"></div>
+        <script>
+            var map = new BMapGL.Map('container'); 
+            var new_point = new BMapGL.Point(121.518122,31.303999);
+            map.centerAndZoom(new_point, 16); 
+            map.enableScrollWheelZoom(true); 
+            var marker = new BMapGL.Marker(new_point);  
+            map.addOverlay(marker);
+        </script>
 </div>
