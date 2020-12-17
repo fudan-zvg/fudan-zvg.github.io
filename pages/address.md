@@ -10,8 +10,7 @@ permalink: "/address/"
 ---
 
 
-<div class="">
+Xinjinbo, 539 Handan Road, Yangpu, Shanghai
+
 
 {% include map.html %}
-
-</div>

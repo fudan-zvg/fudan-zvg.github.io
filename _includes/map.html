@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!-- <!DOCTYPE html> -->
 <html lang="zh-CN">
 <head>
     <meta charset="utf-8">
@@ -36,14 +36,14 @@
 <body>
     <div class = "info">按住鼠标右键控制地图旋转、修改倾斜角度。</div>
     <div id="container"></div>
+    <script>
+    var map = new BMapGL.Map('container'); // 创建Map实例
+    var new_point = new BMapGL.Point(121.518122,31.303999);
+    map.centerAndZoom(new_point, 16); // 初始化地图,设置中心点坐标和地图级别
+    map.enableScrollWheelZoom(true); // 开启鼠标滚轮缩放
+    var marker = new BMapGL.Marker(new_point);  // 创建标注
+    map.addOverlay(marker);              // 将标注添加到地图中
+    map.panTo(new_point);
+    </script>
 </body>
 </html>
-<script>
-var map = new BMapGL.Map('container'); // 创建Map实例
-var new_point = new BMapGL.Point(121.518122,31.303999);
-map.centerAndZoom(new_point, 16); // 初始化地图,设置中心点坐标和地图级别
-map.enableScrollWheelZoom(true); // 开启鼠标滚轮缩放
-var marker = new BMapGL.Marker(new_point);  // 创建标注
-map.addOverlay(marker);              // 将标注添加到地图中
-map.panTo(new_point);
-</script>
