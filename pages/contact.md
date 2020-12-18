@@ -2,8 +2,7 @@
 layout: page
 show_meta: false
 title: "Contact"
-meta_title: "Contact Us"
-subheadline: ""
+subheadline: "Contact Us"
 teaser: 
 permalink: "/contact/"
 ---
