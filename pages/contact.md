@@ -1,9 +1,10 @@
 ---
 layout: page
-show_meta: false
 title: "Contact"
-subheadline: "Contact Us"
+subheadline: "Group Address"
 teaser: 
+header:
+   image_fullwidth: 
 permalink: "/contact/"
 ---
 
