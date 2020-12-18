@@ -14,8 +14,8 @@
   url: "/project/"
   side: left
 
-- title: "Address"
-  url: "/address/"
+- title: "Contact"
+  url: "/contact/"
   side: left
 # - title: "Research"
 #   url: "/research/"
