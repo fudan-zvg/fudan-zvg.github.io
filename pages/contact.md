@@ -1,5 +1,6 @@
 ---
 layout: page
+show_meta: false
 title: "Contact"
 meta_title: "Contact Us"
 subheadline: ""
