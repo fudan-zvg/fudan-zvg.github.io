@@ -35,7 +35,6 @@
 	<script src="{{ url }}/assets/js/main_banner.js"></script>
 	<script src="{{ url }}/assets/js/util.js"></script>
 	<script src="https://ajax.googleapis.com/ajax/libs/webfont/1.5.18/webfont.js"></script>
-	<script src="https://api.map.baidu.com/api?type=webgl&v=1.0&ak=P5eKeo15Nf8Ncas8c84lcXU7kcjWQuyc"></script>
 	<script>
 		WebFont.load({
 			google: {
@@ -58,12 +57,16 @@
 	{% if site.alexa_verify_id %}<meta name="alexaVerifyID" content="{{ site.alexa_verify_id }}">{% endif %}
 	{% if page.noindex == true or layout.noindex == true %}<meta name="robots" content="noindex">{% endif %}
 	<link rel="canonical" href="{{ url }}{{ page.url }}">
+	
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=G-08HVZG1Y7R"></script>
+	<script>
+	window.dataLayer = window.dataLayer || [];
+	function gtag(){dataLayer.push(arguments);}
+	gtag('js', new Date());
 
-	<!-- Baidu Map -->
-	<meta charset="utf-8">
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <meta name="viewport" content="initial-scale=1.0, user-scalable=no">
-    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+	gtag('config', 'G-08HVZG1Y7R');
+	</script>
 
 
 	<!-- Facebook Open Graph -->
