@@ -19,7 +19,7 @@
 {% assign title = title | strip_html | escape | strip_newlines %}
 
 {% endcapture %}<meta charset="utf-8">
-	<base target="_blank" />
+	<base rel="external" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>{{ title }}</title>
 
@@ -35,6 +35,7 @@
 	<script src="{{ url }}/assets/js/skel.min.js"></script>
 	<script src="{{ url }}/assets/js/main_banner.js"></script>
 	<script src="{{ url }}/assets/js/util.js"></script>
+	<script src="{{ url }}/assets/js/external.js"></script>
 	<script src="https://ajax.googleapis.com/ajax/libs/webfont/1.5.18/webfont.js"></script>
 	<script>
 		WebFont.load({
