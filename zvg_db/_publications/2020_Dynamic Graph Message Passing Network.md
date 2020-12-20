@@ -1,6 +1,6 @@
 ---
 title: "Dynamic Graph Message Passing Network"
-year: 2020
+date: 20191115
 category: "vision"
 author_list: "Li Zhang, Dan Xu, Anurag Arnab, Philip H.S. Torr"
 pub_in: "CVPR 2020 (Oral)"

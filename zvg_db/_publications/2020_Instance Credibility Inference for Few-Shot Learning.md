@@ -1,6 +1,6 @@
 ---
 title: "Instance Credibility Inference for Few-Shot Learning"
-year: 2020
+date: 20191115
 category: "vision"
 author_list: "Yikai Wang, Chengming Xu, Chen Liu, Li Zhang, Yanwei Fu"
 pub_in: "CVPR 2020"

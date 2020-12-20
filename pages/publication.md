@@ -22,7 +22,7 @@ permalink: "/publication/"
 
 <div class="">
 
-    {% assign publications = site.publications | sort: "year" | reverse %}
+    {% assign publications = site.publications | sort: "date" | reverse %}
     {% for pub in publications %}
 
         {%  include pub_item.html 

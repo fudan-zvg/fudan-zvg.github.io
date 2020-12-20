@@ -1,6 +1,6 @@
 ---
 title: "Strip Pooling: Rethinking Spatial Pooling for Scene Parsing"
-year: 2020
+date: 20191115
 category: "vision"
 author_list: "Qibin Hou, Li Zhang, Ming-Ming Cheng, Jiashi Feng"
 pub_in: "CVPR 2020"

@@ -1,6 +1,6 @@
 ---
 title: "XingGAN for Person Image Generation"
-year: 2020
+date: 20200305
 category: "vision"
 author_list: "Hao Tang, Song Bai, Li Zhang, Philip H.S. Torr, Nicu Sebe"
 pub_in: "ECCV 2020"

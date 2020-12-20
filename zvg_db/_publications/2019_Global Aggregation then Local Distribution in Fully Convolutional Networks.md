@@ -1,6 +1,6 @@
 ---
 title: "Global Aggregation then Local Distribution in Fully Convolutional Networks"
-year: 2019
+date: 20190429
 category: "vision"
 author_list: "Xiangtai Li, Li Zhang, Ansheng You, Maoke Yang, Kuiyuan Yang, Yunhai Tong"
 pub_in: "BMVC 2019"

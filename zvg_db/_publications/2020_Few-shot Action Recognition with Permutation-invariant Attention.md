@@ -1,6 +1,6 @@
 ---
 title: "Few-shot Action Recognition with Permutation-invariant Attention"
-year: 2020
+date: 20200305
 category: "vision"
 author_list: "Hongguang Zhang, Li Zhang, Xiaojuan Qi, Hongdong Li, Philip H.S. Torr, Piotr Koniusz"
 pub_in: "ECCV 2020 (Spotlight)"

@@ -1,6 +1,6 @@
 ---
 title: "Fast Online Object Tracking and Segmentation: A Unifying Approach"
-year: 2019
+date: 20181116
 category: "vision"
 author_list: "Qiang Wang*, Li Zhang*, Luca Bertinetto*, Weiming Hu, Philip H.S. Torr"
 pub_in: "CVPR 2019"

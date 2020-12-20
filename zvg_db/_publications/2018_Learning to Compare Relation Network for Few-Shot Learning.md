@@ -1,6 +1,6 @@
 ---
 title: "Learning to Compare: Relation Network for Few-Shot Learning "
-year: 2018
+date: 20171115
 category: "vision"
 author_list: "Flood Sung, Yongxin Yang, Li Zhang, Tao Xiang, Philip H.S. Torr, Timothy M. Hospedales"
 pub_in: "CVPR 2018"

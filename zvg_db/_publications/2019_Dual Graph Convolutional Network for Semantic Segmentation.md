@@ -1,6 +1,6 @@
 ---
 title: "Dual Graph Convolutional Network for Semantic Segmentation"
-year: 2019
+date: 20190429
 category: "vision"
 author_list: "Li Zhang, Xiangtai Li, Anurag Arnab, Kuiyuan Yang, Yunhai Tong, Philip H.S. Torr"
 pub_in: "BMVC 2019"

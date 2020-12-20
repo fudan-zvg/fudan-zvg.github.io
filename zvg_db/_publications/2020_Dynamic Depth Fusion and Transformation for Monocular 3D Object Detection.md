@@ -1,6 +1,6 @@
 ---
 title: "Dynamic Depth Fusion and Transformation for Monocular 3D Object Detection"
-year: 2020
+date: 20200108
 category: "vision"
 author_list: "Erli Ouyang*, Li Zhang*, Mohan Chen, Anurag Arnab, Yanwei Fu"
 pub_in: "ACCV 2020"

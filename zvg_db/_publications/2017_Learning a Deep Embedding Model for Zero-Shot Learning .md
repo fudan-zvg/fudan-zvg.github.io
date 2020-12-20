@@ -1,6 +1,6 @@
 ---
 title: "Learning a Deep Embedding Model for Zero-Shot Learning"
-year: 2017
+date: 20161115
 category: "vision"
 author_list: "Li Zhang, Tao Xiang, Shaogang Gong"
 pub_in: "CVPR 2017"
