@@ -677,11 +677,11 @@ a.member {
                     background-image: url('/images/banners/banner1.png') !important;
                 }
 
-                /* #banner_image_2 {
-                    background-image: url('/images/banners/banner2_small.jpg') !important;
+                #banner_image_2 {
+                    background-image: url('/images/banners/banner2.png') !important;
                 }
 
-                #banner_image_3 {
+                /* #banner_image_3 {
                     background-image: url('/images/banners/banner3_small.jpg') !important;
                 } */
             
@@ -693,11 +693,11 @@ a.member {
                     background-image: url('/images/banners/banner1.png') !important;
                 }
 
-                /* #banner_image_2 {
-                    background-image: url('/images/banners/banner2_medium.jpg') !important;
+                #banner_image_2 {
+                    background-image: url('/images/banners/banner2.png') !important;
                 }
 
-                #banner_image_3 {
+                /* #banner_image_3 {
                     background-image: url('/images/banners/banner3_medium.jpg') !important;
                 } */
             
@@ -709,11 +709,11 @@ a.member {
                     background-image: url('/images/banners/banner1.png') !important;
                 }
 
-                /* #banner_image_2 {
-                    background-image: url('/images/banners/banner2_huge.jpg') !important;
+                #banner_image_2 {
+                    background-image: url('/images/banners/banner2.png') !important;
                 }
 
-                #banner_image_3 {
+                /* #banner_image_3 {
                     background-image: url('/images/banners/banner3_huge.jpg') !important;
                 } */
             
