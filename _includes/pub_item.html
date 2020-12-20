@@ -13,18 +13,15 @@
 	<div class="small-8 column">
 		<p>
 			<b>{{ include.title }}</b>
-			
-			<p>{{ include.author_list }}</p>
-			
+			<br>
+			{{ include.author_list }}
+			<br>
+			{{ include.pub_in }}
 			{% if include.oral %}
-				<p style="color: #ff0000">{{ include.pub_in }}</p>
-			{% else %}
-				<p>{{ include.pub_in }}</p>
+				<p style="color: #f15a51">{{ include.oral }}</p>
 			{% endif %}
-			
 			<br>
 			<br>
-			
 			{% if include.pdf_url %}
 			<a href="{{ include.pdf_url }}" target="_blank"> [PDF]</a>
 			{% endif %}
