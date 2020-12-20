@@ -19,10 +19,8 @@
 			{% if include.oral %}
 			<p style="color: #ff0000">{{ include.pub_in }}</p>
 			{% else %}
-			{{ include.pub_in }}
+			<p>{{ include.pub_in }}</p>
 			{% endif %} 
-			
-			<br>
 			<a href="{{ include.pdf_url }}" target="_blank"> [PDF]</a>
 			{% if include.website %}
 			<a href="{{ include.website }}" target="_blank"> [Website]</a>
