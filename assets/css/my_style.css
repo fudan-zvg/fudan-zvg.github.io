@@ -681,9 +681,9 @@ a.member {
                     background-image: url('/images/banners/banner2.png') !important;
                 }
 
-                /* #banner_image_3 {
-                    background-image: url('/images/banners/banner3_small.jpg') !important;
-                } */
+                #banner_image_3 {
+                    background-image: url('/images/banners/banner3.png') !important;
+                }
             
         }
         /* Desktop screens */
@@ -697,9 +697,9 @@ a.member {
                     background-image: url('/images/banners/banner2.png') !important;
                 }
 
-                /* #banner_image_3 {
-                    background-image: url('/images/banners/banner3_medium.jpg') !important;
-                } */
+                #banner_image_3 {
+                    background-image: url('/images/banners/banner3.png') !important;
+                }
             
         }
         /* Huge screens */
@@ -713,9 +713,9 @@ a.member {
                     background-image: url('/images/banners/banner2.png') !important;
                 }
 
-                /* #banner_image_3 {
-                    background-image: url('/images/banners/banner3_huge.jpg') !important;
-                } */
+                #banner_image_3 {
+                    background-image: url('/images/banners/banner3.png') !important;
+                }
             
         }
         /* Mobile screens */
