@@ -15,8 +15,13 @@
 			<b>{{ include.title }}</b>
 			<br>
 			{{ include.author_list }}
-			<br> 
+			<br>
+			{% if include.oral %}
+			<p style="color: #ff0000">{{ include.pub_in }}</p>
+			{% else %}
 			{{ include.pub_in }}
+			{% endif %} 
+			
 			<br>
 			<a href="{{ include.pdf_url }}" target="_blank"> [PDF]</a>
 			{% if include.website %}
