@@ -18,18 +18,18 @@
 			<br> 
 			{{ include.pub_in }}
 			<br>
-			<a href="{{ include.pdf_url }}"> [PDF]</a>
+			<a href="{{ include.pdf_url }}" target="_blank"> [PDF]</a>
 			{% if include.website %}
-			<a href="{{ include.website }}"> [Website]</a>
+			<a href="{{ include.website }}" target="_blank"> [Website]</a>
 			{% endif %}
 			{% if include.bib %}
-			<a href="{{ include.bib }}"> [Bibtex]</a>
+			<a href="{{ include.bib }}" target="_blank"> [Bibtex]</a>
 			{% endif %}
 			{% if include.code_url %}
-			<a href="{{ include.code_url }}"> [Code]</a>
+			<a href="{{ include.code_url }}" target="_blank"> [Code]</a>
 			{% endif %}
 			{% if include.blog_post %}
-			<a href="{{ include.blog_post }}"> [Blog Post]</a>
+			<a href="{{ include.blog_post }}" target="_blank"> [Blog Post]</a>
 			{% endif %}
 			{% if include.grant == 'MURI' %}
 			| {{ include.grant }}
