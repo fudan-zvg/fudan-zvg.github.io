@@ -37,6 +37,8 @@ permalink: "/publication/"
             website=pub.website
             code_url=pub.code_url
             blog_post=pub.blog_post
+            oral=pub.oral
+            
         %}    
 
 
