@@ -6,4 +6,5 @@ author_list: "Li Zhang, Xiangtai Li, Anurag Arnab, Kuiyuan Yang, Yunhai Tong, Ph
 pub_in: "BMVC 2019"
 pdf_url: "https://arxiv.org/abs/1909.06121"
 code_url: "https://github.com/lxtGH/GALD-Net"
+img_path: "DGC.jpg"
 ---
