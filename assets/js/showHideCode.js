@@ -1,7 +1,3 @@
-function showHideCode(){
-    $("#showdiv").toggle();
-}
-
 function change(){
     var obj=document.getElementById("showdiv");
     if(obj.style.display=="none"){
