@@ -5,4 +5,6 @@ category: "vision"
 author_list: "Hao Tang, Song Bai, Li Zhang, Philip H.S. Torr, Nicu Sebe"
 pub_in: "ECCV 2020"
 pdf_url: "https://arxiv.org/pdf/2007.09278.pdf"
+img_path1: "XingGan-1.png"
+img_path2: "XingGan-2.png"
 ---

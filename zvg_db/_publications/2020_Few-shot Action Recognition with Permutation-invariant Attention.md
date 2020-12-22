@@ -6,5 +6,6 @@ author_list: "Hongguang Zhang, Li Zhang, Xiaojuan Qi, Hongdong Li, Philip H.S. T
 pub_in: "ECCV 2020"
 oral: " (Spotlight)"
 pdf_url: "https://arxiv.org/abs/2001.03905"
-
+img_path1: "FAR-1.png"
+img_path2: "FAR-2.png"
 ---

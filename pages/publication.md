@@ -32,7 +32,8 @@ permalink: "/publication/"
             pub_in=pub.pub_in
             bib=pub.bib
             grant=pub.grant
-            img_path=pub.img_path
+            img_path1=pub.img_path1
+            img_path2=pub.img_path2
             pdf_url=pub.pdf_url
             website=pub.website
             code_url=pub.code_url
