@@ -6,4 +6,6 @@ author_list: "Xiangtai Li, Li Zhang, Ansheng You, Maoke Yang, Kuiyuan Yang, Yunh
 pub_in: "BMVC 2019"
 pdf_url: "https://arxiv.org/abs/1909.07229"
 code_url: "https://github.com/lxtGH/GALD-Net"
+img_path1: "GALD.png"
+img_path2: "GALD.png"
 ---
