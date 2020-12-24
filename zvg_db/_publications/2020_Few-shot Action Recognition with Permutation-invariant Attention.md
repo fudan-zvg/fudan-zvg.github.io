@@ -7,5 +7,4 @@ pub_in: "ECCV 2020"
 oral: " (Spotlight)"
 pdf_url: "https://arxiv.org/abs/2001.03905"
 img_path1: "FAR.png"
-img_path2: "FAR.png"
 ---

@@ -7,5 +7,4 @@ pub_in: "CVPR 2018"
 pdf_url: "https://arxiv.org/abs/1711.06025"
 code_url: "https://github.com/lzrobots/LearningToCompare_ZSL"
 img_path1: "RN.png"
-img_path2: "RN.png"
 ---
