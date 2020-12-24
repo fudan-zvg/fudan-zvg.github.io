@@ -10,9 +10,14 @@
 			document.getElementById('b1').src ="/i/eg_mouse2.jpg"
 			}
 		</script>
-		{% if include.img_path1 %}
+		{% if include.img_path1 and include.img_path2 %}
 			<a href="{{ include.pdf_url }}">
 				<img alt="" src="../images/images_for_pub/{{ include.img_path1 }}" style="width:100%" onMouseOver="this.src='../images/images_for_pub/{{ include.img_path2 }}'" onMouseOut="this.src='../images/images_for_pub/{{ include.img_path1 }}'">
+			</a>
+
+		{% elsif include.img_path1 %}
+			<a href="{{ include.pdf_url }}">
+				<img src="../images/images_for_pub/{{ include.img_path1 }}" style="width: 100%">
 			</a>
 		{% else %}
 			<a href="{{ include.pdf_url }}">
