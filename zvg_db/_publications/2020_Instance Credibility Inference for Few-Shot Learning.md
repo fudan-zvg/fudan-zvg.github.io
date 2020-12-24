@@ -6,6 +6,6 @@ author_list: "Yikai Wang, Chengming Xu, Chen Liu, Li Zhang, Yanwei Fu"
 pub_in: "CVPR 2020"
 pdf_url: "https://arxiv.org/abs/2003.11853"
 code_url: "https://github.com/Yikai-Wang/ICI-FSL"
-img_path1: "ICI-1.png"
-img_path2: "ICI-2.png"
+img_path1: "ICI.png"
+img_path2: "ICI.png"
 ---
