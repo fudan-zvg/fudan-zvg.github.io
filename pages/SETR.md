@@ -10,5 +10,3 @@ permalink: "/SETR/"
 ---
 
 TODO
-
-{% include setr.html %}
