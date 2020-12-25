@@ -1,0 +1,110 @@
+<h1>Dynamic Graph Message Passing Network</h1> 
+<br> 
+<p>
+<h4>
+<a href="http://www.robots.ox.ac.uk/~lz/" target="_blank">Li Zhang</a><sup>1</sup>, &ensp;&ensp;
+<a href="http://www.robots.ox.ac.uk/~danxu/" target="_blank">Dan Xu</a><sup>1</sup>, &ensp;&ensp;
+<a href="http://www.robots.ox.ac.uk/~aarnab/" target="_blank">Anurag Arnab</a><sup>2</sup>, &ensp;&ensp;
+<a href="https://scholar.google.com/citations?user=kPxa2w0AAAAJ&hl=en" target="_blank">Philip H.S. Torr</a><sup>1</sup>
+</h4>
+</br><h4> <sup>1</sup>University of Oxford, &ensp;&ensp;
+<sup>2</sup>Google Research</h4> </p> 
+</br><h4>CVPR 2020 Oral</h4>
+</div> 
+
+<hr><div><img class="img-responsive center-block" alt="pipeline picture" src="https://www.robots.ox.ac.uk/~lz/dgmn/figure720_720.gif" style="width:60%"></div>
+
+<hr><div class="row-justify"> 
+<p> Modelling long-range dependencies is critical for complex scene understanding tasks such as semantic segmentation and object detection. Although CNNs have excelled in many computer vision tasks, they are still limited in capturing long-range structured relationships as they typically consist of layers of local kernels. A fully-connected graph is beneficial for such modelling, however, its computational overhead is prohibitive. We propose a dynamic graph message passing network, based on the message passing neural network framework, that significantly reduces the computational complexity compared to related works modelling a fully-connected graph. This is achieved by adaptively sampling nodes in the graph, conditioned on the input, for message passing. Based on the sampled nodes, we then dynamically predict node-dependent filter weights and the affinity matrix for propagating information between them. Using this model, we show significant improvements with respect to strong, state-of-the-art baselines on three different tasks and backbone architectures. Our approach also outperforms fully-connected graphs while using substantially fewer floating point operations and parameters.
+</p> 
+</div> 
+<br> 
+
+
+<div>
+<h3> Oral presentation (5 mins) </h3> 
+<video width="700" height="400" controls>
+            <source src="https://www.robots.ox.ac.uk/~lz/dgmn/5-oral.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+</video>
+</div>
+
+
+<div>
+<h3> Short presentation (1 min) </h3> 
+<video width="700" height="400" controls>
+            <source src="https://www.robots.ox.ac.uk/~lz/dgmn/5-1min.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+</video>
+</div>
+
+
+<br> 
+<div class="row"> 
+<h3> Visualisations </h3> 
+<br> 
+<h4> Nodes sampling</h4> 
+<div><img class="img-responsive center-block" alt="pipeline picture" src="https://www.robots.ox.ac.uk/~lz/dgmn/node.png" style="width:700%"></div>
+<br> 
+<h4> Semantic segmentation on Cityscapes </h4> 
+<div><img class="img-responsive center-block" alt="pipeline picture" src="https://www.robots.ox.ac.uk/~lz/dgmn/cs_results.jpg" style="width:700%"></div>
+<br> 
+<h4> Object detection on COCO </h4> 
+<div><img class="img-responsive center-block" alt="pipeline picture" src="https://www.robots.ox.ac.uk/~lz/dgmn/coco1.png" style="width:700%"></div>
+</div> 
+
+
+
+
+<div class="row"> 
+<h3> Paper </h3> 
+[<a href="http://openaccess.thecvf.com/content_CVPR_2020/papers/Zhang_Dynamic_Graph_Message_Passing_Networks_CVPR_2020_paper.pdf" target="_blank">paper</a>]
+[<a href="http://openaccess.thecvf.com/content_CVPR_2020/supplemental/Zhang_Dynamic_Graph_Message_CVPR_2020_supplemental.pdf" target="_blank">supplementary material</a>]
+[<a href="https://arxiv.org/abs/1908.06955" target="_blank">arxiv</a>]
+</div> 
+
+
+<div class="row"> 
+<h3> Slides </h3> 
+[<a href="http://www.robots.ox.ac.uk/~lz/dgmn/5-talk.pdf" target="_blank">oral presentation</a>]
+[<a href="http://www.robots.ox.ac.uk/~lz/dgmn/5-slides.pdf" target="_blank">short presentation</a>]
+</div> 
+
+
+<div class="row"> 
+<h3> Code </h3> 
+[<a href="https://github.com/lzrobots/dgmn" target="_blank">Coming</a>]
+</div> 
+
+
+
+
+
+
+
+<div class="row"> 
+<h3> Bibtex </h3> 
+<pre xml:space="preserve">
+@InProceedings{Zhang_2020_CVPR,
+author = {Zhang, Li and Xu, Dan and Arnab, Anurag and Torr, Philip H.S.},
+title = {Dynamic Graph Message Passing Networks},
+booktitle = {IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
+month = {June},
+year = {2020}
+}
+</pre>
+</div> 
+
+
+
+<div class="row"> 
+<h3> Acknowledgement </h3> 
+We thank Professor Andrew Zisserman for valuable discussions. 
+This work was supported by the EPSRC grant <a href="http://www.robots.ox.ac.uk/~vgg/projects/seebibyte/">Seebibyte EP/M013774/1</a>, ERC grant ERC-2012-AdG 321162-HELIOS and EPSRC/MURI grant EP/N019474/1. 
+We would also like to acknowledge the Royal Academy of Engineering.
+</div> 
+
+
+
+<br> 
+</div>
