@@ -9,4 +9,3 @@ header:
 permalink: "/SETR/"
 ---
 
-{% include setr.html %}
