@@ -1,24 +1,24 @@
-<div div class="text-center">
+<div div class="mw-100 text-center">
     <h1>Rethinking Semantic Segmentation from a Sequence-to-Sequence Perspectivewith Transformers</h1> 
     <br> 
     <p>
     <h4>
         <a href="" target="_blank">Sixiao Zheng</a><sup>1 *</sup>, &ensp;&ensp;
         <a href="" target="_blank">Jiachen Lu</a><sup>1 *</sup>, &ensp;&ensp;
-        <a href="" target="_blank">Hengshuang Zhao</a><sup>2</sup>, &ensp;&ensp;
-        <a href="" target="_blank">Xiatian Zhu</a><sup>3</sup>, &ensp;&ensp;
+        <a href="https://hszhao.github.io" target="_blank">Hengshuang Zhao</a><sup>2</sup>, &ensp;&ensp;
+        <a href="https://xiatian-zhu.github.io" target="_blank">Xiatian Zhu</a><sup>3</sup>, &ensp;&ensp;
         <a href="" target="_blank">Zekun Luo</a><sup>4</sup>, &ensp;&ensp;
         <a href="" target="_blank">Yabiao Wang</a><sup>4</sup> &ensp;&ensp;
         <br>
-        <a href="" target="_blank">Yanwei Fu</a><sup>1</sup>, &ensp;&ensp;
+        <a href="https://yanweifu.github.io" target="_blank">Yanwei Fu</a><sup>1</sup>, &ensp;&ensp;
         <a href="" target="_blank">Jianfeng Feng</a><sup>1</sup>, &ensp;&ensp;
-        <a href="" target="_blank">Tao Xiang</a><sup>3 5</sup>, &ensp;&ensp;
-        <a href="" target="_blank">Philip H.S. Torr</a><sup>2</sup>, &ensp;&ensp;
+        <a href="https://scholar.google.com/citations?user=MeS5d4gAAAAJ&hl=en" target="_blank">Tao Xiang</a><sup>3 5</sup>, &ensp;&ensp;
+        <a href="https://scholar.google.com/citations?user=kPxa2w0AAAAJ&hl=en" target="_blank">Philip H.S. Torr</a><sup>2</sup>, &ensp;&ensp;
         <a href="http://www.robots.ox.ac.uk/~lz/" target="_blank">Li Zhang</a><sup>1 †</sup>
     </h4>
     <br>
     <h4> 
-        <sup>1</sup>School of Data Science, Fudan University &ensp;&ensp;
+        <sup>1</sup>Fudan University &ensp;&ensp;
         <sup>2</sup>University of Oxford &ensp;&ensp;
         <sup>3</sup>University of Surrey &ensp;&ensp;
         <sup>4</sup>Tencent Youtu Lab &ensp;&ensp;
@@ -26,13 +26,6 @@
     </h4> 
     </p> 
 </div> 
-
-<div class="row">
-    <br>
-    <img class="img-responsive center-block" alt="pipeline picture" src="https://fudan-zvg.github.io/images/images_for_pub/setr-1.png" style="width:100%">
-    <br>
-    <img class="img-responsive center-block" alt="result picture" src="https://fudan-zvg.github.io/images/images_for_pub/setr-2.png" style="width:100%">
-</div>
 
 <div class="text-center">
     <h2>Abstract</h2> 
@@ -42,4 +35,17 @@
         Most recent semantic segmentation methods adopt a fully-convolutional network (FCN) with an encoder-decoder architecture. The encoder progressively reduces the spatial resolution and learns more abstract/semantic visual concepts with larger receptive fields.  Since context modeling is critical for segmentation, the latest efforts have been focused on increasing the receptive field, through either dilated/atrous convolutions or inserting attention modules. However, the encoder-decoder based FCN architecture remains unchanged. In this paper, we aim to provide an alternative perspective by treating semantic segmentation as a sequence-to-sequence prediction task. Specifically, we deploy a pure transformer (ie, without convolution and resolution reduction) to encode an image as a sequence of patches.  With the global context modeled in every layer of the transformer, this simple encoder can be combined with a decoder in simple design to provide a powerful segmentation model, termed SEgmentation TRansformer (SETR). Extensive experiments show that SETR achieves new state of the art on ADE20K (50.28% mIoU), Pascal Context (55.83% mIoU) and competitive results on Cityscapes. Particularly, we rank 1st in the highly competitive ADE20k test server <a href="http://sceneparsing.csail.mit.edu/eval/leaderboard.php" target="_blank">leaderboard</a>
     </p>
 
+</div>
+
+<div class="row">
+    <br>
+    <img class="img-responsive center-block" alt="pipeline picture" src="https://fudan-zvg.github.io/images/images_for_pub/setr-1.png" style="width:100%">
+    <br>
+    <img class="img-responsive center-block" alt="result picture1" src="https://fudan-zvg.github.io/images/images_for_pub/setr-2.png" style="width:100%">
+    <br>
+    <img class="img-responsive center-block" alt="result picture2" src="https://fudan-zvg.github.io/images/images_for_pub/setr-3.png" style="width:100%">
+    <br>
+    <img class="img-responsive center-block" alt="result picture3" src="https://fudan-zvg.github.io/images/images_for_pub/setr-4.png" style="width:100%">
+    <br>
+    <img class="img-responsive center-block" alt="result picture4" src="https://fudan-zvg.github.io/images/images_for_pub/setr-5.png" style="width:100%">
 </div>
