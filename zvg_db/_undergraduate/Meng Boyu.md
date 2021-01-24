@@ -3,7 +3,7 @@ name: Boyu Meng
 title: Mr
 email: 
 website: 
-note: 
+note: (Intern at Huawei Noah Ark)
 category: Undergraduate Students
 photo: 
 ---

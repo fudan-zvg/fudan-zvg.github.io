@@ -3,7 +3,7 @@ name: Shenghua Xu
 title: Mr
 email: 
 website: 
-note: 
+note: (Intern at Huawei Noah Ark)
 category: Master Students
 photo: 
 ---
