@@ -3,7 +3,7 @@ name: Zheyuan Zhou
 title: Mr
 email: 
 website: 
-note: 
+note: Intern at Baidu
 category: Master Students
 photo: 
 ---
