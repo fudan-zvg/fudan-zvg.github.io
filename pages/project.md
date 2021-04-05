@@ -13,4 +13,4 @@ permalink: "/project/"
 
 2. Rethinking Semantic Segmentation from a Sequence-to-Sequence Perspective with Transformers [SETR](https://fudan-zvg.github.io/SETR/)
 
-3. Depth-conditioned Dynamic Message Propagation for Monocular 3D Object Detection [DDMP](https://fudan-zvg.github.io/DDMP/)
+3. Depth-conditioned Dynamic Message Propagation for Monocular 3D Object Detection
