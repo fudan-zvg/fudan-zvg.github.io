@@ -9,8 +9,8 @@ header:
 permalink: "/project/"
 ---
 
-1. Dynamic Graph Message Passing Network [DGMN](https://fudan-zvg.github.io/DGMN/)
+1. Dynamic Graph Message Passing Network [DGMN](https://fudan-zvg.github.io/DGMN)
 
-2. Rethinking Semantic Segmentation from a Sequence-to-Sequence Perspective with Transformers [SETR](https://fudan-zvg.github.io/SETR/)
+2. Rethinking Semantic Segmentation from a Sequence-to-Sequence Perspective with Transformers [SETR](https://fudan-zvg.github.io/SETR)
 
-3. Depth-conditioned Dynamic Message Propagation for Monocular 3D Object Detection
+3. Depth-conditioned Dynamic Message Propagation for Monocular 3D Object Detection [DDMP](https://github.com/fudan-zvg/DDMP)
