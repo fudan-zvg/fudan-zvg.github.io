@@ -6,5 +6,5 @@ author_list: "Li Wang, Liang Du, Xiaoqing Ye, Yanwei Fu, Guodong Guo, Xiangyang 
 pub_in: "CVPR 2021"
 pdf_url: "https://arxiv.org/abs/2103.16470"
 code_url: "https://github.com/fudan-zvg/DDMP"
-img_path1: "DDMP.jepg"
+img_path1: "DDMP.jpeg"
 ---
