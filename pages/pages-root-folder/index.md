@@ -23,6 +23,10 @@ homepage: true
               year=n.year 
               news_content=n.news_content 
               link=n.link 
+              link2=n.link2
+              link3=n.link3
+              link4=n.link4
+              link5=n.link5
           %}
         {% endfor %}
       </ul>
