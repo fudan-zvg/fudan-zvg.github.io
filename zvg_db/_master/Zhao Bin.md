@@ -3,7 +3,7 @@ name: Bin Zhao
 title: Mr
 email: 
 website: 
-note: 
+note: Intern at Huawei Noah Ark
 category: Master Students
 photo: 
 ---

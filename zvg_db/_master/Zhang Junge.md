@@ -4,6 +4,6 @@ title: Mr
 email: 
 website: 
 note: 
-category: Undergraduate Students
+category: Master Students
 photo: 
 ---

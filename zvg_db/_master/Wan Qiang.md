@@ -1,9 +1,9 @@
 ---
-name: Fan Yan
+name: Qiang Wan
 title: Mr
 email: 
 website: 
-note: Intern at Huawei Noah Ark
+note: 
 category: Master Students
 photo: 
 ---

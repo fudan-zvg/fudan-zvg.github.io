@@ -3,7 +3,7 @@ name: Li Wang
 title: Ms
 email: 
 website: 
-note: Intern at Amazon AWS
+note: 
 category: PhD Students
 photo: 
 ---
