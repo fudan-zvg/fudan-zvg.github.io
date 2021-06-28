@@ -1,5 +1,5 @@
 ---
-title: "How to trust unlabeled data? Instance Credibility Inference forFew-Shot Learning"
+title: "How to trust unlabeled data? Instance Credibility Inference for Few-Shot Learning"
 date: 20210528
 category: "vision"
 author_list: "Yikai Wang, Li Zhang, Yuan Yao, Yanwei Fu "
