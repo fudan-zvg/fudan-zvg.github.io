@@ -1,5 +1,5 @@
 ---
-title: "Learning a Few-shot Embedding Model with Contrastive Learning"
+title: "How to trust unlabeled data? Instance Credibility Inference forFew-Shot Learning"
 date: 20210528
 category: "vision"
 author_list: "Yikai Wang, Li Zhang, Yuan Yao, Yanwei Fu "
