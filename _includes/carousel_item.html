@@ -1,16 +1,6 @@
 <div class="item {% if include.active contains 'true' %} active {% endif %}">
 	
-		{% if include.image %}  
 		<img src="{{ include.image }}" alt="{{ include.alt }}" style="">
-		{ % endif %}
-
-		{% if include.video %}
-		<video width="700" height="400" controls>
-			<source src="https://www.robots.ox.ac.uk/~lz/dgmn/5-1min.mp4" type="video/mp4">
-			Your browser does not support the video tag.
-		</video>
-		{ % endif %}
-
 		{% if include.title %}  
 		<div class="carousel-caption d-none d-md-block">
 			<h3 style="color: #FFFFFF"> {{ include.title }} </h3>
