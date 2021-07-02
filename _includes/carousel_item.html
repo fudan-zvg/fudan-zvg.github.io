@@ -5,7 +5,10 @@
 		{ % endif %}
 
 		{% if include.video %}
-		<source src="https://www.robots.ox.ac.uk/~lz/dgmn/5-1min.mp4" type="video/mp4">
+		<video width="700" height="400" controls>
+			<source src="https://www.robots.ox.ac.uk/~lz/dgmn/5-1min.mp4" type="video/mp4">
+			Your browser does not support the video tag.
+		</video>
 		{ % endif %}
 
 		{% if include.title %}  
