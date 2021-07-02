@@ -12,6 +12,16 @@ homepage: true
 
 ---
 
+<div class="pc dark-section" style="">
+
+<h3> Short presentation (1 min) </h3> 
+<video width="700" height="400" controls>
+            <source src="https://www.robots.ox.ac.uk/~lz/dgmn/5-1min.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+</video>
+
+</div>
+
 <div class="row" style= "margin-top: 30px; max-height: 540px; margin-left: 1%">
     <div class="light-section mt-6 mb-6">
       <h3 class="section-title">Breaking News</h3>
