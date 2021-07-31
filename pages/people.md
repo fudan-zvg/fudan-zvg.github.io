@@ -58,20 +58,6 @@ permalink: "/people/"
 
 	<hr/>
 
-	<h3 class="medium-12 section-title">Undergraduate Students</h3>
-
-	{% for a in site.undergraduate %}
-		{% include collaborator.html 
-            name=a.name 
-            title=a.title 
-            email=a.email 
-            website=a.website 
-            note=a.note 
-		%}
-	{% endfor %}
-
-	<hr/>
-
 	<h3 class="medium-12 section-title">Visiting Students</h3>
 
 	{% for a in site.visit %}
