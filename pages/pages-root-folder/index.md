@@ -37,7 +37,7 @@ homepage: true
   <br>
   <h3 class="section-title"> Join the Group </h3> 
 
-  We are currently looking to hire talented students. 
+  We are currently looking to hire talented students/postdoc.
   <br>
   If you are highly creative, have top grades/coding skill and interested in joining our group please do not hesitate to send your CV and transcripts of grades to <a href="mailto:lizhangfd@fudan.edu.cn">lizhangfd@fudan.edu.cn </a>
 
