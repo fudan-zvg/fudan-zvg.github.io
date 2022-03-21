@@ -36,11 +36,11 @@ homepage: true
 <div class="pc dark-section" style="">
   <br>
   <h3 class="section-title"> Join the Group </h3> 
-
-  We are currently looking to hire talented students/postdoc.
+  
+  <p>We are currently looking to hire talented students/postdoc.
   <br>
-  If you are highly creative, have top grades/coding skill and interested in joining our group please do not hesitate to send your CV and transcripts of grades to <a href="mailto:lizhangfd@fudan.edu.cn">lizhangfd@fudan.edu.cn </a>
-  <br>
-  We and <a href="https://torrvision.com">Torr Vision Group </a>, University of Oxford take joint postdoc/postgraduate students/interns to work on a 3D Vision project. Send emails to <a href="mailto:lizhangfd@fudan.edu.cn">lizhangfd@fudan.edu.cn </a> and cc <a href="mailto:philip.torr@eng.ox.ac.uk">philip.torr@eng.ox.ac.uk </a> if you are interested.
+  If you are highly creative, have top grades/coding skill and interested in joining our group please do not hesitate to send your CV and transcripts of grades to <a href="mailto:lizhangfd@fudan.edu.cn">lizhangfd@fudan.edu.cn </a></p>
+  
+  <p>We and <a href="https://torrvision.com">Torr Vision Group </a>, University of Oxford take joint postdoc/postgraduate students/interns to work on a 3D Vision project. Send emails to <a href="mailto:lizhangfd@fudan.edu.cn">lizhangfd@fudan.edu.cn </a> and cc <a href="mailto:philip.torr@eng.ox.ac.uk">philip.torr@eng.ox.ac.uk </a> if you are interested.</p>
 
 </div>
