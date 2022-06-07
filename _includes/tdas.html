@@ -1,0 +1,50 @@
+<div div class="text-center">
+    <h1>Accelerating Score-based Generative Models for High-Resolution Image Synthesis</h1>
+    <br>
+    <p>
+    <h6>
+        <a href="" target="">Hengyuan Ma</a><sup>1</sup> &ensp;
+        <a href="http://www.robots.ox.ac.uk/~lz/" target="_blank">Li Zhang</a><sup>1 *</sup>
+        <a href="https://xiatian-zhu.github.io" target="_blank">Xiatian Zhu</a><sup>2</sup> &ensp;
+        <a href="https://zjfheart.github.io/" target="">Jingfeng Zhang</a><sup>3</sup> &ensp;
+        <a href="https://www.dcs.warwick.ac.uk/~feng/" target="_blank">Jianfeng Feng</a><sup>1</sup> &ensp;
+
+    </h6>
+    <br>
+    <h6>
+        <sup>1</sup>Fudan University &ensp;&ensp;
+        <sup>2</sup>University of Surrey &ensp;&ensp;
+		<sup>3</sup>RIKEN
+
+    </h6>
+    </p>
+
+    <h3>
+        Arxiv Preprint
+    </h3>
+
+    <br>
+    <h2>
+        <a href="" target="_blank">Paper</a> &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;
+        <a href="https://github.com/fudan-zvg/TDAS" target="_blank">Code</a>
+    </h2>
+</div>
+
+<div class="text-center">
+    <h2>Abstract</h2>
+</div>
+<div class="row">
+    <p>
+        Score-based generative models (SGMs) have recently emerged as a promising class of generative models. The key idea is to produce high-quality images by recurrently adding Gaussian noises and gradients to a Gaussian sample until converging to the target distribution, a.k.a.  the diffusion sampling. To ensure stability of convergence in sampling and generation quality, however, this sequential sampling process has to take a small step size and many sampling iterations (e.g., 2000). Several acceleration methods have been proposed with focus on low-resolution generation. In this work, we consider the acceleration of high-resolution generation with SGMs, a more challenging yet more important problem. We prove theoretically that this slow convergence drawback is primarily due to the ignorance of the target distribution. Further, we introduce a novel Target Distribution Aware Sampling (TDAS) method by leveraging the structural priors in space and frequency domains. Extensive experiments on CIFAR-10, CelebA, LSUN, and FFHQ datasets validate that TDAS can consistently accelerate state-of-the-art SGMs, particularly on more challenging high resolution 1024x1024 image generation tasks by up to 18.4x, whilst largely maintaining the synthesis quality. With fewer sampling iterations, TDAS can still generate good quality images. In contrast, the existing methods degrade drastically or even fails completely.
+    </p>
+
+</div>
+
+<!-- <div class="row">
+    <br>
+    <img class="img-responsive center-block" alt="pipeline picture" src="https://fudan-zvg.github.io/images/images_for_pub/SOFT-1.png" style="width:100%">
+</div>
+<div class="row">
+    <br>
+    <img class="img-responsive center-block" alt="pipeline picture" src="https://fudan-zvg.github.io/images/images_for_pub/SOFT-2.png" style="width:100%">
+</div> -->
