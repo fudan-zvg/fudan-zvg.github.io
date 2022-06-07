@@ -9,4 +9,4 @@ header:
 permalink: "/TDAS/"
 ---
 
-{% include TDAS.html %}
+{% include tdas.html %}
