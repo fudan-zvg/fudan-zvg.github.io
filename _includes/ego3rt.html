@@ -1,0 +1,51 @@
+<div div class="text-center">
+    <h1>Learning Ego 3D Representation as Ray Tracing </h1>
+    <br> 
+    <p>
+    <h6>
+        <a href="" target="">Jiachen Lu</a><sup>1</sup> &ensp;
+        <a href="" target="">Zheyuan Zhou</a><sup>1</sup> &ensp;
+        <a href="https://xiatian-zhu.github.io" target="_blank">Xiatian Zhu</a><sup>2</sup> &ensp;
+        <a href="" target="">Hang Xu</a><sup>3</sup> &ensp;
+        <!-- <br> -->
+        <a href="http://www.robots.ox.ac.uk/~lz/" target="_blank">Li Zhang</a><sup>1 *</sup>
+    </h6>
+    <br>
+    <h6> 
+        <sup>1</sup>Fudan University &ensp;&ensp;
+        <sup>2</sup>University of Surrey &ensp;&ensp;
+		<sup>3</sup>Huawei Noah's Ark Lab
+        
+    </h6> 
+    </p>
+    
+    <h3> 
+        Arxiv Preprint
+    </h3> 
+
+    <br>
+    <h2>
+        <a href="" target="_blank">Paper</a> &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;
+        <a href="https://github.com/fudan-zvg/Ego3RT" target="_blank">Code</a> 
+    </h2>
+</div> 
+
+<div class="text-center">
+    <h2>Abstract</h2> 
+</div>
+<div class="row">
+    <p>
+        A self-driving perception model aims to extract 3D semantic representations from multiple cameras collectively into the bird's-eye-view (BEV) coordinate frame of the ego car in order to ground downstream planner. Existing perception methods often rely on error-prone depth estimation of the whole scene or learning sparse virtual 3D representations without the target geometry structure, both of which remain limited in performance and/or capability. In this paper, we present a novel end-to-end architecture for ego 3D representation learning from an arbitrary number of unconstrained camera views. Inspired by the ray tracing principle, we design a polarized grid of ``imaginary eyes" as the learnable ego 3D representation and formulate the learning process with the adaptive attention mechanism in conjunction with the 3D-to-2D projection. Critically, this formulation allows extracting rich 3D representation from 2D images without any depth supervision, and with the built-in geometry structure consistent \wrt~BEV. Despite its simplicity and versatility, extensive experiments on standard BEV visual tasks (\eg, camera-based 3D object detection and BEV segmentation) show that our model outperforms all state-of-the-art alternatives significantly, with an extra advantage in computational efficiency from multi-task learning.
+    </p>
+
+</div>
+
+<!-- <div class="row">
+    <br>
+    <img class="img-responsive center-block" alt="pipeline picture" src="https://fudan-zvg.github.io/images/images_for_pub/SOFT-1.png" style="width:100%">
+</div>
+
+<div class="row">
+    <br>
+    <img class="img-responsive center-block" alt="pipeline picture" src="https://fudan-zvg.github.io/images/images_for_pub/SOFT-2.png" style="width:100%">
+</div> -->
