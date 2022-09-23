@@ -1,5 +1,5 @@
 ---
-name: Zijie Pan
+name: Pan Zijie
 title: Mr
 email: 
 website: 
