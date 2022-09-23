@@ -1,5 +1,5 @@
 ---
-name: Nie Ming
+name: Ming Nie
 title: Mr
 email: 
 website: 
