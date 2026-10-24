@@ -5,5 +5,5 @@ category: "vision"
 author_list: "Yanqin Jiang, Li Zhang, Zhenwei Miao, Xiatian Zhu, Jin Gao, Weiming Hu, Yu-Gang Jiang"
 pub_in: "AAAI 2023"
 pdf_url: "https://arxiv.org/abs/2206.15398"
-code_url: "https://github.com/fudan-zvg/PolarFormer"
+code_url: "https://github.com/LogosIntelligenceLab/PolarFormer"
 ---

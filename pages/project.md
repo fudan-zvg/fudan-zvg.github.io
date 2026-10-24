@@ -11,8 +11,8 @@ permalink: "/project/"
 
 1. Dynamic Graph Message Passing Network [DGMN](https://fudan-zvg.github.io/DGMN)
 
-2. Rethinking Semantic Segmentation from a Sequence-to-Sequence Perspective with Transformers [SETR](https://fudan-zvg.github.io/SETR)
+2. Rethinking Semantic Segmentation from a Sequence-to-Sequence Perspective with Transformers [SETR](https://logosintelligencelab.github.io/SETR)
 
-3. Depth-conditioned Dynamic Message Propagation for Monocular 3D Object Detection [DDMP](https://github.com/fudan-zvg/DDMP)
+3. Depth-conditioned Dynamic Message Propagation for Monocular 3D Object Detection [DDMP](https://github.com/LogosIntelligenceLab/DDMP)
 
-4. SOFT: Softmax-free Transformer with Linear Complexity [SOFT](https://fudan-zvg.github.io/SOFT)
+4. SOFT: Softmax-free Transformer with Linear Complexity [SOFT](https://logosintelligencelab.github.io/SOFT)

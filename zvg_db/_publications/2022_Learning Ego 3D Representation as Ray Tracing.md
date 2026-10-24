@@ -4,5 +4,5 @@ date: 20220705
 category: "vision"
 author_list: "Jiachen Lu, Zheyuan Zhou, Xiatian Zhu, Hang Xu, Li Zhang"
 pub_in: "ECCV 2022"
-code_url: "https://github.com/fudan-zvg/Ego3RT"
+code_url: "https://github.com/LogosIntelligenceLab/Ego3RT"
 ---
